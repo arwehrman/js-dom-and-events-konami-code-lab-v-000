@@ -10,7 +10,7 @@ function init() {
       index++;
 
       if (index === code.length) {
-        alert('Congrats! Konami Code!');
+        alert('Konami Code!');
 
         index = 0;
       }
