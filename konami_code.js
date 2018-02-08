@@ -6,7 +6,7 @@ let index = 0;
 function init() {
   document.body.addEventListener('keydown', function onKeyDownHandler(e) {
     const key = parseInt(e.detail || e.which);
-    
+
     if (key === code[index]) {
       index++;
 
@@ -16,7 +16,7 @@ function init() {
         index = 0;
       }
     } else {
-      //if key doesn't equal code than set counter at zero
+      //if key doesn't equal code than set counter back to zero
       index = 0;
     }
   });
