@@ -6,10 +6,10 @@ let index = 0;
 function init() {
   document.body.addEventListener('keydown', function onKeyDownHandler(e) {
     const key = parseInt(e.detail || e.which);
-
+    //if the input matches code, increase index count
     if (key === code[index]) {
       index++;
-
+      //if index count reaches code length send alert
       if (index === code.length) {
         alert('Konami Code!');
 
