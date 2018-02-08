@@ -11,7 +11,7 @@ function init() {
 
       if (index === code.length) {
         alert('Konami Code!');
-
+        
         index = 0;
       }
     } else {
