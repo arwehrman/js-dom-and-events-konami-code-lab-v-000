@@ -16,6 +16,7 @@ function init() {
         index = 0;
       }
     } else {
+      //if key doesn't equal code than set counter at zero
       index = 0;
     }
   });
